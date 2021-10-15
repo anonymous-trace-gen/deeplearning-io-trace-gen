@@ -1,6 +1,11 @@
-- 👋 Hi, I’m @anonymous-trace-gen
+# Deep-learning-based I/O pattern generation
 
-<!---
-anonymous-trace-gen/anonymous-trace-gen is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This is for a demonstration of how to use generative models to produce I/O patterns. 
+
+We analize real-world, large-scale I/O traces and build two deep learning models (Feature Generator and Trace Generator). We share our models and parameters to demonstrate generating I/O patterns.
+
+Please check out `featureSelection.ipynb` and `traceGeneration.ipynb` for the demonstration.
+
+## Code Credit
+We borrow some code in the following repository:
+* Normalizing Flow: https://github.com/VishakhG/normalizing-flows
